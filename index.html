@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CAMS Practice Exam Questions &amp; Answers (2026) — Free Sample + Study Guide | PrepBench</title>
-<meta name="description" content="30 free ACAMS CAMS practice questions with per-option explanations, the full exam outline with domain weightings, and exam FAQs. Last reviewed August 2026 by AML compliance professionals.">
+<title>10 Free CAMS Practice Questions &amp; Answers (2026) + Study Guide | PrepBench</title>
+<meta name="description" content="10 free ACAMS CAMS practice questions — pick an answer, check it, read the full per-option explanation. Plus the complete exam outline with domain weightings and exam FAQs. Last reviewed August 2026.">
 <link rel="canonical" href="https://www.prepbench.example/acams/cams/practice-questions">
 <script type="application/ld+json">
 {
@@ -22,13 +22,13 @@
 {
  "@context": "https://schema.org",
  "@type": "Quiz",
- "name": "CAMS Practice Exam — Free Sample",
- "description": "Free ACAMS CAMS practice questions with explanations and source citations.",
+ "name": "CAMS Practice Exam — Free Sample (10 Questions)",
+ "description": "Free ACAMS CAMS practice questions with selectable answers, instant checking, and per-option explanations with source citations.",
  "provider": {"@type": "Organization", "name": "PrepBench"}
 }
 </script>
 <style>
-:root{--navy:#0f2a43;--teal:#0e7c66;--teal-d:#0a5c4c;--bg:#f5f7f9;--card:#ffffff;--line:#e2e8ee;--txt:#22303c;--mut:#5c6b7a;--ok:#1a7f4e;}
+:root{--navy:#0f2a43;--teal:#0e7c66;--teal-d:#0a5c4c;--teal-l:#e7f2ef;--bg:#f5f7f9;--card:#fff;--line:#e2e8ee;--txt:#22303c;--mut:#5c6b7a;--ok:#1a7f4e;--bad:#c2453a;--gold:#e8a13a;}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6;font-size:16px}
 a{color:var(--teal-d)}
@@ -42,62 +42,86 @@ nav.main a{color:#cfd9e4;text-decoration:none;margin-left:22px;font-size:.95rem}
 .btn:hover{background:var(--teal-d)}
 .btn.ghost{background:transparent;border:2px solid var(--teal);color:var(--teal-d)}
 .btn.sm{padding:7px 14px;font-size:.85rem}
+.btn.xl{padding:17px 52px;font-size:1.2rem;border-radius:12px;background:linear-gradient(120deg,var(--teal),#12a384);box-shadow:0 10px 26px rgba(14,124,102,.35)}
+.btn.xl:hover{filter:brightness(1.05)}
 .crumbs{background:#eef2f6;border-bottom:1px solid var(--line);font-size:.85rem;color:var(--mut)}
-.crumbs .wrap{padding-top:9px;padding-bottom:9px}
+.crumbs .wrap{padding:9px 20px}
 .crumbs a{color:var(--mut);text-decoration:none}
 h1{font-size:1.9rem;line-height:1.25;margin:28px 0 8px;color:var(--navy)}
-.meta-line{color:var(--mut);font-size:.95rem;margin-bottom:22px}
+.meta-line{color:var(--mut);font-size:.95rem;margin-bottom:10px}
 .meta-line b{color:var(--txt)}
-section{margin:34px 0}
-h2{font-size:1.35rem;color:var(--navy);margin-bottom:14px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px}
-.tbl-scroll{overflow-x:auto}
-/* Facts card */
-.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0;border:1px solid var(--line);border-radius:12px;background:#fff;overflow:hidden}
-.facts div{padding:14px 18px;border-bottom:1px solid var(--line);border-right:1px solid var(--line)}
-.facts .k{font-size:.72rem;text-transform:uppercase;letter-spacing:.5px;color:var(--mut);font-weight:700}
-.facts .v{font-size:1rem;font-weight:600;color:var(--navy);margin-top:2px}
-/* Author card */
-.author{background:#fff;border:1px solid var(--line);border-left:5px solid var(--teal);border-radius:10px;padding:16px 20px;margin-bottom:18px;font-size:.9rem}
-.author b{color:var(--navy)}
-.author .who{display:flex;gap:22px;flex-wrap:wrap;margin-top:8px}
-.author .who div span{display:block}
-.author .who .nm{font-weight:800;color:var(--navy);font-size:.9rem}
-.author .who .cr{color:var(--mut);font-size:.82rem}
-/* Questions */
-.q{background:#fff;border:1px solid var(--line);border-left:5px solid var(--teal);border-radius:10px;padding:20px 22px;margin-bottom:18px}
-.q-head{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px;font-size:.8rem;color:var(--mut)}
-.tag{background:#e7f2ef;color:var(--teal-d);border-radius:20px;padding:3px 10px;font-weight:700;font-size:.75rem}
+/* section heads */
+.sec-head{text-align:center;margin:46px 0 22px}
+.sec-head .kicker{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-d);font-weight:800}
+.sec-head h2{font-size:1.55rem;color:var(--navy);margin:7px 0 5px}
+.sec-head .sec-sub{color:var(--mut);font-size:.93rem}
+/* facts grid */
+.facts-card{background:#fff;border:1px solid var(--line);border-top:4px solid var(--teal);border-radius:12px;overflow:hidden}
+.facts{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line)}
+.facts div{background:#fff;padding:16px 14px;display:flex;flex-direction:column;gap:3px;min-height:96px}
+.facts .k{font-size:.68rem;text-transform:uppercase;letter-spacing:.6px;color:var(--mut);font-weight:800}
+.facts .v{font-size:.95rem;font-weight:700;color:var(--navy);line-height:1.35}
+.facts .ic{font-size:1.05rem;opacity:.75}
+/* author bar */
+.author-bar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;background:linear-gradient(120deg,var(--teal-l),#fff);border:1px solid #cfe4dd;border-radius:12px;padding:14px 20px;margin-bottom:16px}
+.author-bar .ava{width:46px;height:46px;border-radius:50%;background:var(--teal);color:#fff;font-weight:800;font-size:1.15rem;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.author-bar .who{flex:1;min-width:260px;font-size:.87rem;color:var(--txt)}
+.author-bar .who b{color:var(--navy)}
+.author-bar .chip{background:#fff;border:1px solid #cfe4dd;color:var(--teal-d);font-weight:800;font-size:.78rem;border-radius:20px;padding:6px 14px}
+/* progress */
+.track{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 16px;margin-bottom:18px;font-size:.88rem;color:var(--mut)}
+.track .bar{flex:1;height:7px;background:#eef1f5;border-radius:4px;overflow:hidden}
+.track .fl{height:100%;width:0;background:var(--teal);border-radius:4px;transition:width .25s}
+.track b{color:var(--navy)}
+/* question card */
+.q{background:#fff;border:1px solid var(--line);border-radius:12px;padding:22px 24px;margin-bottom:18px;position:relative}
+.q-num{position:absolute;top:-14px;left:18px;background:var(--navy);color:#fff;font-weight:800;font-size:.8rem;padding:4px 14px;border-radius:20px;letter-spacing:.04em}
+.q-head{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0 12px;padding-top:4px}
+.tag{background:var(--teal-l);color:var(--teal-d);border-radius:20px;padding:3px 11px;font-weight:700;font-size:.75rem}
 .tag.diff{background:#eef1f5;color:var(--mut)}
-.q-head .save{margin-left:auto;background:none;border:1px solid var(--line);border-radius:6px;padding:4px 10px;font-size:.78rem;cursor:pointer;color:var(--mut)}
-.q-head .save.on{background:#e7f2ef;border-color:var(--teal);color:var(--teal-d)}
-.stem{font-size:1.02rem;margin-bottom:12px}
-.opts{list-style:none;margin:0 0 6px}
-.opts li{padding:8px 12px;border:1px solid var(--line);border-radius:8px;margin-bottom:7px;font-size:.95rem}
-details.ans{margin-top:10px}
-details.ans summary{cursor:pointer;font-weight:700;color:var(--teal-d);font-size:.92rem;padding:6px 0}
-details.ans[open] summary{margin-bottom:8px}
-.correct{font-weight:800;color:var(--ok);font-size:1.02rem;margin:6px 0}
-.cite{font-size:.8rem;color:var(--mut);margin-top:10px;border-top:1px dashed var(--line);padding-top:8px}
-.votes{font-size:.8rem;color:var(--mut);margin-top:10px;display:flex;gap:14px;flex-wrap:wrap}
+.check{margin-left:auto;background:var(--navy);color:#fff;border:none;border-radius:8px;padding:8px 18px;font-weight:700;font-size:.85rem;cursor:pointer}
+.check:disabled{background:#c6d0da;cursor:not-allowed}
+.stem{font-size:1.03rem;margin-bottom:14px}
+.opt{display:flex;align-items:flex-start;gap:12px;padding:11px 14px;border:1.5px solid var(--line);border-radius:9px;margin-bottom:8px;cursor:pointer;font-size:.95rem;transition:border-color .12s,background .12s}
+.opt input{position:absolute;opacity:0;pointer-events:none}
+.opt .letter{width:26px;height:26px;border-radius:50%;background:#eef1f5;color:var(--navy);font-weight:800;font-size:.8rem;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+.opt:hover{border-color:#b9c7d3}
+.opt.sel{border-color:var(--teal);background:var(--teal-l)}
+.opt.sel .letter{background:var(--teal);color:#fff}
+.opt.correct{border-color:var(--ok);background:#eef7f1}
+.opt.correct .letter{background:var(--ok);color:#fff}
+.opt.wrong{border-color:var(--bad);background:#fbeeec}
+.opt.wrong .letter{background:var(--bad);color:#fff}
+.opt.dim{opacity:.55}
+.opt .mk{margin-left:auto;font-weight:800;font-size:.85rem}
+.opt.correct .mk{color:var(--ok)}
+.opt.wrong .mk{color:var(--bad)}
+.explain{margin-top:14px;background:#f8fafb;border:1px solid var(--line);border-left:4px solid var(--teal);border-radius:9px;padding:16px 18px}
+.correct-line{font-weight:800;color:var(--ok);font-size:1rem;margin-bottom:6px}
+.explain ul{margin:8px 0 0 18px;font-size:.9rem;color:var(--mut)}
+.explain ul li{margin-bottom:4px}
+.cite{font-size:.78rem;color:var(--mut);margin-top:12px;border-top:1px dashed var(--line);padding-top:8px}
+.votes{font-size:.79rem;color:var(--mut);margin-top:10px;display:flex;gap:14px;flex-wrap:wrap}
 .votes b{color:var(--navy)}
-.disc{font-size:.82rem;color:var(--teal-d);margin-top:8px}
-/* CTA band */
-.cta-band{background:linear-gradient(120deg,var(--navy),#17466b);color:#fff;border-radius:14px;padding:24px 28px;display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;margin:30px 0}
-.cta-band h3{color:#fff;font-size:1.1rem;margin-bottom:4px}
-.cta-band p{color:#c7d5e2;font-size:.93rem;max-width:520px}
-/* Domain guide */
+.disc{font-size:.82rem;color:var(--teal-d);margin-top:6px}
+/* big CTA */
+.big-cta{text-align:center;margin:40px 0 10px}
+.big-cta .score-line{font-size:.95rem;color:var(--mut);margin-bottom:14px}
+.big-cta .score-line b{color:var(--teal-d);font-size:1.05rem}
+.big-cta .cta-sub{margin-top:12px;font-size:.9rem;color:var(--mut)}
+/* domain guide */
 .dom{border:1px solid var(--line);border-radius:10px;background:#fff;padding:16px 18px;margin-bottom:12px}
 .dom .w{font-weight:800;color:var(--teal-d)}
 .dom ul{margin:8px 0 0 18px;font-size:.92rem;color:var(--mut)}
-/* FAQ */
+/* faq */
 details.faq{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin-bottom:10px}
 details.faq summary{cursor:pointer;font-weight:700;color:var(--navy)}
 details.faq p{margin-top:10px;font-size:.93rem}
 footer.site{background:var(--navy);color:#9fb2c4;font-size:.85rem;padding:26px 0;margin-top:50px}
 footer.site .wrap{display:flex;flex-wrap:wrap;gap:8px 26px}
 footer.site a{color:#cfd9e4;text-decoration:none}
-@media(max-width:720px){nav.main{display:none}h1{font-size:1.5rem}}
+@media(max-width:900px){.facts{grid-template-columns:repeat(2,1fr)}.facts div{min-height:0}}
+@media(max-width:720px){nav.main{display:none}h1{font-size:1.5rem}.facts{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body>
@@ -117,55 +141,64 @@ footer.site a{color:#cfd9e4;text-decoration:none}
 <div class="wrap">
 
 <h1>CAMS Practice Exam Questions &amp; Answers (2026)</h1>
-<p class="meta-line"><b>30 free questions</b> · Last reviewed: <b>August 20, 2026</b> · Independent — not affiliated with ACAMS</p>
+<p class="meta-line"><b>10 free questions</b> · Last reviewed: <b>August 20, 2026</b> · Independent — not affiliated with ACAMS</p>
 
-<!-- ① EXAM DETAILS (top) -->
-<section>
-<h2>CAMS Exam Details</h2>
+<!-- ① EXAM DETAILS -->
+<div class="sec-head">
+  <span class="kicker">Exam Facts</span>
+  <h2>CAMS Exam Details</h2>
+  <p class="sec-sub">Verified against the official ACAMS exam outline</p>
+</div>
+<div class="facts-card">
 <div class="facts">
-  <div><div class="k">Exam Code</div><div class="v">CAMS</div></div>
-  <div><div class="k">Full Name</div><div class="v">Certified Anti-Money Laundering Specialist</div></div>
-  <div><div class="k">Issuing Body</div><div class="v">ACAMS</div></div>
-  <div><div class="k">Question Format</div><div class="v">140 multiple-choice &amp; multiple-response</div></div>
-  <div><div class="k">Duration</div><div class="v">4 hours</div></div>
-  <div><div class="k">Scoring</div><div class="v">100–900 scale · 70% to pass (700)</div></div>
-  <div><div class="k">Exam Fee</div><div class="v">≈ $595 member / $795 non-member*</div></div>
-  <div><div class="k">Delivery</div><div class="v">Pearson VUE — online or test centre</div></div>
-  <div><div class="k">Eligibility</div><div class="v">No formal prerequisite; relevant experience recommended</div></div>
-  <div><div class="k">Certification Validity</div><div class="v">3 years · 30 CPEs to renew</div></div>
+  <div><span class="ic">🔣</span><span class="k">Exam Code</span><span class="v">CAMS</span></div>
+  <div><span class="ic">📜</span><span class="k">Full Name</span><span class="v">Certified Anti-Money Laundering Specialist</span></div>
+  <div><span class="ic">🏛️</span><span class="k">Issuing Body</span><span class="v">ACAMS</span></div>
+  <div><span class="ic">🧩</span><span class="k">Question Format</span><span class="v">140 multiple-choice &amp; multiple-response</span></div>
+  <div><span class="ic">⏱️</span><span class="k">Duration</span><span class="v">4 hours</span></div>
+  <div><span class="ic">🎯</span><span class="k">Scoring</span><span class="v">100–900 scale · 700 to pass</span></div>
+  <div><span class="ic">💳</span><span class="k">Exam Fee</span><span class="v">≈ $595 member / $795 non-member*</span></div>
+  <div><span class="ic">🖥️</span><span class="k">Delivery</span><span class="v">Pearson VUE — online or test centre</span></div>
+  <div><span class="ic">✅</span><span class="k">Eligibility</span><span class="v">No formal prerequisite; experience recommended</span></div>
+  <div><span class="ic">🗓️</span><span class="k">Validity</span><span class="v">3 years · 30 CPEs to renew</span></div>
 </div>
-<p style="font-size:.78rem;color:var(--mut);margin-top:8px">*Approximate published fees — confirm current pricing on the official ACAMS site.</p>
-</section>
+</div>
+<p style="font-size:.78rem;color:var(--mut);margin-top:8px;text-align:center">*Approximate published fees — confirm current pricing on the official ACAMS site.</p>
 
-<!-- ② PRACTICE QUESTIONS (author details at start) -->
-<section>
-<h2>Free Practice Questions</h2>
-
-<div class="author">
-  <b>Written &amp; verified by the PrepBench AML Review Board</b> — every question is original (no real exam questions), with each answer checked against the official ACAMS exam outline and the sources cited below it. Last full review: <b>August 20, 2026</b>.
-  <div class="who">
-    <div><span class="nm">R. Mehmood, CAMS</span><span class="cr">12 yrs — bank AML compliance &amp; BSA program design</span></div>
-    <div><span class="nm">P. Iyer, CAMS, CRISC</span><span class="cr">9 yrs — FIU analyst, former internal audit manager</span></div>
-    <div><span class="nm">Source base</span><span class="cr">ACAMS exam outline · FATF 40 Recommendations · USA PATRIOT Act · Wolfsberg Principles</span></div>
-  </div>
+<!-- ② PRACTICE QUESTIONS -->
+<div class="sec-head">
+  <span class="kicker">Practice Questions</span>
+  <h2>Try the Free CAMS Questions</h2>
+  <p class="sec-sub">10 questions · select an option, press Check Answer, read why every option is right or wrong</p>
 </div>
 
-<p style="font-size:.9rem;color:var(--mut);margin-bottom:16px">Filter by domain · every answer explains why each option is right or wrong · <span id="prog">0 / 8</span> revealed</p>
+<!-- author bar (separate from question cards) -->
+<div class="author-bar">
+  <div class="ava">PB</div>
+  <div class="who"><b>PrepBench AML Review Board</b> — R. Mehmood, CAMS (12 yrs bank AML &amp; BSA program design) · P. Iyer, CAMS, CRISC (9 yrs FIU &amp; internal audit). All questions are original — no real exam questions. Sources: ACAMS exam outline, FATF Recommendations, USA PATRIOT Act, Wolfsberg Principles.</div>
+  <span class="chip">Last reviewed · Aug 20, 2026</span>
+</div>
 
-<article class="q">
-  <div class="q-head"><span class="tag">ML Methods &amp; Typologies</span><span class="tag diff">Medium</span><button class="save" onclick="this.classList.toggle('on');this.textContent=this.classList.contains('on')?'Saved ✓':'Save'">Save</button></div>
+<!-- progress -->
+<div class="track">
+  <span>Progress</span>
+  <div class="bar"><div class="fl" id="pbar"></div></div>
+  <span>Answered <b id="answered">0 / 10</b></span>
+</div>
+
+<!-- Q1 -->
+<div class="q" id="q1" data-correct="B">
+  <span class="q-num">Question 1</span>
+  <div class="q-head"><span class="tag">ML Methods &amp; Typologies</span><span class="tag diff">Medium</span><button class="check" disabled onclick="checkQ(1,this)">Check Answer</button></div>
   <p class="stem">A monitoring rule flags a retail customer who has made four separate cash deposits in one week at the same branch — $8,500, $9,100, $8,900 and $9,400 — each just below the $10,000 currency transaction reporting threshold. What is the most appropriate first action?</p>
-  <ol class="opts">
-    <li>A. File a suspicious activity report immediately — the pattern is obvious</li>
-    <li>B. Review the account's historical activity and customer profile to establish whether the pattern is explainable before escalating</li>
-    <li>C. Contact the customer to ask why they keep depositing just below the threshold</li>
-    <li>D. Close the account immediately to mitigate the risk</li>
-  </ol>
-  <details class="ans" ontoggle="bump()">
-    <summary>Show Answer &amp; Explanation</summary>
-    <p class="correct">Correct answer: B</p>
+  <label class="opt"><input type="radio" name="q1" value="A"><span class="letter">A</span>File a suspicious activity report immediately — the pattern is obvious<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q1" value="B"><span class="letter">B</span>Review the account's historical activity and customer profile to establish whether the pattern is explainable before escalating<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q1" value="C"><span class="letter">C</span>Contact the customer to ask why they keep depositing just below the threshold<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q1" value="D"><span class="letter">D</span>Close the account immediately to mitigate the risk<span class="mk"></span></label>
+  <div class="explain" hidden>
+    <p class="correct-line">Correct answer: B</p>
     <p>Structuring (smurfing) is a red flag, but a SAR is a fact-based filing: the first step is to review the account's normal activity, the customer's profile (a contractor with cash income may legitimately deposit near thresholds), and any prior alerts. Acting without that review risks a weak or erroneous filing.</p>
-    <ul style="margin:8px 0 0 18px;font-size:.92rem;color:var(--mut)">
+    <ul>
       <li><b>A</b> — Premature. Filing without completing the fact-finding step can produce inaccurate reports.</li>
       <li><b>C</b> — Contacting the customer about the pattern risks <i>tipping off</i>, which is prohibited in many jurisdictions.</li>
       <li><b>D</b> — Disproportionate. Exiting a relationship is a decision for senior management after investigation, not a first response to an alert.</li>
@@ -173,23 +206,22 @@ footer.site a{color:#cfd9e4;text-decoration:none}
     <p class="cite">Concepts: structuring (BSA 31 CFR 1010.314(e)); tipping-off prohibitions (FATF Rec. 20 / local SAR law). Source: ACAMS CAMS exam outline — ML methods &amp; typologies.</p>
     <div class="votes"><span>Community vote:</span><span><b>B 61%</b></span><span>A 18%</span><span>C 12%</span><span>D 9%</span></div>
     <div class="disc">💬 23 comments in the discussion →</div>
-  </details>
-</article>
+  </div>
+</div>
 
-<article class="q">
-  <div class="q-head"><span class="tag">AML Laws &amp; Regulations</span><span class="tag diff">Medium</span><button class="save" onclick="this.classList.toggle('on');this.textContent=this.classList.contains('on')?'Saved ✓':'Save'">Save</button></div>
+<!-- Q2 -->
+<div class="q" id="q2" data-correct="A">
+  <span class="q-num">Question 2</span>
+  <div class="q-head"><span class="tag">AML Laws &amp; Regulations</span><span class="tag diff">Medium</span><button class="check" disabled onclick="checkQ(2,this)">Check Answer</button></div>
   <p class="stem">A U.S. bank is asked to open a correspondent account for a foreign bank that also offers payable-through account (PTA) services to that foreign bank's own customers. Under the USA PATRIOT Act, what must the U.S. bank do before providing PTA services?</p>
-  <ol class="opts">
-    <li>A. Obtain a list of the account holders at the foreign bank who will use the PTA services</li>
-    <li>B. Obtain a list of all politically exposed persons who own the correspondent bank</li>
-    <li>C. Require the foreign bank to maintain a physical branch in the United States</li>
-    <li>D. Obtain the foreign bank's complete AML training program</li>
-  </ol>
-  <details class="ans" ontoggle="bump()">
-    <summary>Show Answer &amp; Explanation</summary>
-    <p class="correct">Correct answer: A</p>
+  <label class="opt"><input type="radio" name="q2" value="A"><span class="letter">A</span>Obtain a list of the account holders at the foreign bank who will use the PTA services<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q2" value="B"><span class="letter">B</span>Obtain a list of all politically exposed persons who own the correspondent bank<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q2" value="C"><span class="letter">C</span>Require the foreign bank to maintain a physical branch in the United States<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q2" value="D"><span class="letter">D</span>Obtain the foreign bank's complete AML training program<span class="mk"></span></label>
+  <div class="explain" hidden>
+    <p class="correct-line">Correct answer: A</p>
     <p>Section 313 of the USA PATRIOT Act imposes special due diligence on PTA relationships. Because PTA holders effectively bank through the U.S. bank without a direct account there, the U.S. bank must identify those individuals — including a list of account holders who will use the services, the foreign bank's identity and ownership, verification that the foreign bank is not a shell bank, and a designated U.S. contact for service of legal process.</p>
-    <ul style="margin:8px 0 0 18px;font-size:.92rem;color:var(--mut)">
+    <ul>
       <li><b>B</b> — PEP status is relevant to CDD generally, but the PTA-specific obligation is the account-holder list.</li>
       <li><b>C</b> — No such requirement exists; correspondence relationships routinely involve banks with no U.S. branch.</li>
       <li><b>D</b> — The U.S. bank assesses the adequacy of the foreign bank's AML program, but obtaining the full training program is not a legal requirement.</li>
@@ -197,23 +229,22 @@ footer.site a{color:#cfd9e4;text-decoration:none}
     <p class="cite">Source: USA PATRIOT Act §313 (18 U.S.C. §5318(i)); Wolfsberg Principles on correspondent banking. ACAMS CAMS outline — laws &amp; regulations.</p>
     <div class="votes"><span>Community vote:</span><span><b>A 78%</b></span><span>D 11%</span><span>B 7%</span><span>C 4%</span></div>
     <div class="disc">💬 41 comments in the discussion →</div>
-  </details>
-</article>
+  </div>
+</div>
 
-<article class="q">
-  <div class="q-head"><span class="tag">AML Programs &amp; CDD</span><span class="tag diff">Hard</span><button class="save" onclick="this.classList.toggle('on');this.textContent=this.classList.contains('on')?'Saved ✓':'Save'">Save</button></div>
+<!-- Q3 -->
+<div class="q" id="q3" data-correct="B">
+  <span class="q-num">Question 3</span>
+  <div class="q-head"><span class="tag">AML Programs &amp; CDD</span><span class="tag diff">Hard</span><button class="check" disabled onclick="checkQ(3,this)">Check Answer</button></div>
   <p class="stem">During an annual review, a private bank discovers that a long-standing wealth-management client has recently become a senior minister in a government assessed as high-risk for corruption. What is the most appropriate next step?</p>
-  <ol class="opts">
-    <li>A. Exit the relationship immediately — the client's new status makes it non-compliant</li>
-    <li>B. Escalate to senior management and conduct enhanced due diligence, including source of wealth and source of funds, before continuing the relationship</li>
-    <li>C. Continue the relationship unchanged — the client relationship predates the new status</li>
-    <li>D. Move the client to a standard retail product to reduce oversight requirements</li>
-  </ol>
-  <details class="ans" ontoggle="bump()">
-    <summary>Show Answer &amp; Explanation</summary>
-    <p class="correct">Correct answer: B</p>
+  <label class="opt"><input type="radio" name="q3" value="A"><span class="letter">A</span>Exit the relationship immediately — the client's new status makes it non-compliant<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q3" value="B"><span class="letter">B</span>Escalate to senior management and conduct enhanced due diligence, including source of wealth and source of funds, before continuing the relationship<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q3" value="C"><span class="letter">C</span>Continue the relationship unchanged — the client relationship predates the new status<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q3" value="D"><span class="letter">D</span>Move the client to a standard retail product to reduce oversight requirements<span class="mk"></span></label>
+  <div class="explain" hidden>
+    <p class="correct-line">Correct answer: B</p>
     <p>Existing clients who <i>become</i> politically exposed persons after the relationship began are not automatically disqualified — but the relationship requires senior-management approval, enhanced due diligence to establish source of wealth and source of funds, and enhanced ongoing monitoring. Long tenure does not remove the PEP obligation, and exiting without assessment is disproportionate.</p>
-    <ul style="margin:8px 0 0 18px;font-size:.92rem;color:var(--mut)">
+    <ul>
       <li><b>A</b> — Automatic exit is not required; FATF Rec. 12 expects a risk-based decision with EDD, not a blanket refusal.</li>
       <li><b>C</b> — PEP status triggers EDD regardless of when the relationship began; "business as usual" is a compliance failure.</li>
       <li><b>D</b> — Downgrading the product does not reduce the legal standard; it merely hides the risk, which regulators treat worse than the original issue.</li>
@@ -221,23 +252,22 @@ footer.site a{color:#cfd9e4;text-decoration:none}
     <p class="cite">Source: FATF Recommendation 12 (PEPs); Basel Committee AML/CFT guidance for private banking. ACAMS CAMS outline — AML/BSA programs.</p>
     <div class="votes"><span>Community vote:</span><span><b>B 84%</b></span><span>A 9%</span><span>C 5%</span><span>D 2%</span></div>
     <div class="disc">💬 57 comments in the discussion →</div>
-  </details>
-</article>
+  </div>
+</div>
 
-<article class="q">
-  <div class="q-head"><span class="tag">Sanctions</span><span class="tag diff">Medium</span><button class="save" onclick="this.classList.toggle('on');this.textContent=this.classList.contains('on')?'Saved ✓':'Save'">Save</button></div>
+<!-- Q4 -->
+<div class="q" id="q4" data-correct="B">
+  <span class="q-num">Question 4</span>
+  <div class="q-head"><span class="tag">Sanctions</span><span class="tag diff">Medium</span><button class="check" disabled onclick="checkQ(4,this)">Check Answer</button></div>
   <p class="stem">A sanctions screening alert matches a customer, "Al-Hussein Trading LLC," against a list entry for "Al Hussein Trading." Before resolving the alert, what is the analyst's best next step?</p>
-  <ol class="opts">
-    <li>A. Clear the alert — the names are different, so it is clearly a false positive</li>
-    <li>B. Compare identifying attributes (registration numbers, addresses, ownership, dates of birth/incorporation) with the list entry to determine whether they refer to the same entity</li>
-    <li>C. Block the account immediately as a precaution while the match is reviewed</li>
-    <li>D. Ask the customer to submit a signed declaration that they are not the listed entity</li>
-  </ol>
-  <details class="ans" ontoggle="bump()">
-    <summary>Show Answer &amp; Explanation</summary>
-    <p class="correct">Correct answer: B</p>
+  <label class="opt"><input type="radio" name="q4" value="A"><span class="letter">A</span>Clear the alert — the names are different, so it is clearly a false positive<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q4" value="B"><span class="letter">B</span>Compare identifying attributes (registration numbers, addresses, ownership, dates of birth/incorporation) with the list entry to determine whether they refer to the same entity<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q4" value="C"><span class="letter">C</span>Block the account immediately as a precaution while the match is reviewed<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q4" value="D"><span class="letter">D</span>Ask the customer to submit a signed declaration that they are not the listed entity<span class="mk"></span></label>
+  <div class="explain" hidden>
+    <p class="correct-line">Correct answer: B</p>
     <p>Match resolution is an attribute-comparison exercise: name similarity alone is neither sufficient to block nor sufficient to clear. The analyst should line up registration numbers, addresses, ownership and dates against the list entry, and only then resolve the match — as a true or false positive — with a documented rationale.</p>
-    <ul style="margin:8px 0 0 18px;font-size:.92rem;color:var(--mut)">
+    <ul>
       <li><b>A</b> — "Clearly" is the trap: near-name matches are exactly where true positives hide.</li>
       <li><b>C</b> — Precautionary blocking before resolution risks harming a legitimate customer and, depending on jurisdiction, may itself create obligations (and tipping-off exposure).</li>
       <li><b>D</b> — A customer's self-declaration is not a basis for match resolution; the institution must do its own analysis.</li>
@@ -245,32 +275,22 @@ footer.site a{color:#cfd9e4;text-decoration:none}
     <p class="cite">Source: OFAC guidance on sanctions compliance / match resolution practices; Wolfsberg sanctions screening principles. ACAMS CAMS outline — international &amp; industry standards.</p>
     <div class="votes"><span>Community vote:</span><span><b>B 72%</b></span><span>A 15%</span><span>C 8%</span><span>D 5%</span></div>
     <div class="disc">💬 34 comments in the discussion →</div>
-  </details>
-</article>
-
-<!-- inline CTA after Q4 -->
-<div class="cta-band">
-  <div>
-    <h3>Like the depth? The full set goes 10× deeper.</h3>
-    <p>1,200+ original questions, 12 timed full-length mock exams, scoring with domain-level analytics, and monthly updates — same explanation standard you just saw.</p>
   </div>
-  <a class="btn" href="cams-full-practice-exam.html">See Full Practice Exam →</a>
 </div>
 
-<article class="q">
-  <div class="q-head"><span class="tag">ML Methods &amp; Typologies</span><span class="tag diff">Medium</span><button class="save" onclick="this.classList.toggle('on');this.textContent=this.classList.contains('on')?'Saved ✓':'Save'">Save</button></div>
+<!-- Q5 -->
+<div class="q" id="q5" data-correct="A">
+  <span class="q-num">Question 5</span>
+  <div class="q-head"><span class="tag">ML Methods &amp; Typologies</span><span class="tag diff">Medium</span><button class="check" disabled onclick="checkQ(5,this)">Check Answer</button></div>
   <p class="stem">A textile manufacturer in Country X purchases industrial equipment from a supplier in Country Y with which it shares common ownership. The invoice is roughly three times the market value of comparable equipment, with no quality difference to justify it. Which trade-based money laundering technique does this most likely represent?</p>
-  <ol class="opts">
-    <li>A. Over-invoicing, used to move value out of Country X to a connected party abroad</li>
-    <li>B. Under-invoicing, used to move value into Country X</li>
-    <li>C. Phantom shipment of goods that were never produced</li>
-    <li>D. Double invoicing, where goods are billed twice</li>
-  </ol>
-  <details class="ans" ontoggle="bump()">
-    <summary>Show Answer &amp; Explanation</summary>
-    <p class="correct">Correct answer: A</p>
+  <label class="opt"><input type="radio" name="q5" value="A"><span class="letter">A</span>Over-invoicing, used to move value out of Country X to a connected party abroad<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q5" value="B"><span class="letter">B</span>Under-invoicing, used to move value into Country X<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q5" value="C"><span class="letter">C</span>Phantom shipment of goods that were never produced<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q5" value="D"><span class="letter">D</span>Double invoicing, where goods are billed twice<span class="mk"></span></label>
+  <div class="explain" hidden>
+    <p class="correct-line">Correct answer: A</p>
     <p>In over-invoicing, the importer pays more than the goods are worth; the excess flows to the connected foreign seller, moving value <i>out of</i> the importing country — here, out of X into Y. Shared ownership is the classic red flag that the "arm's length" price is a value-transfer mechanism.</p>
-    <ul style="margin:8px 0 0 18px;font-size:.92rem;color:var(--mut)">
+    <ul>
       <li><b>B</b> — Under-invoicing declares values <i>below</i> market (often to shift value inward or evade duties); the invoice here is above market.</li>
       <li><b>C</b> — Phantom shipments involve no goods at all; equipment was actually purchased.</li>
       <li><b>D</b> — Double invoicing bills for the <i>same</i> goods twice; here one invoice is simply inflated.</li>
@@ -278,23 +298,22 @@ footer.site a{color:#cfd9e4;text-decoration:none}
     <p class="cite">Source: FATF Trade-Based Money Laundering typologies (over/under-invoicing); ACAMS TBLM materials. Outline — ML methods &amp; typologies.</p>
     <div class="votes"><span>Community vote:</span><span><b>A 66%</b></span><span>B 21%</span><span>D 9%</span><span>C 4%</span></div>
     <div class="disc">💬 19 comments in the discussion →</div>
-  </details>
-</article>
+  </div>
+</div>
 
-<article class="q">
-  <div class="q-head"><span class="tag">AML Programs &amp; CDD</span><span class="tag diff">Easy</span><button class="save" onclick="this.classList.toggle('on');this.textContent=this.classList.contains('on')?'Saved ✓':'Save'">Save</button></div>
+<!-- Q6 -->
+<div class="q" id="q6" data-correct="A">
+  <span class="q-num">Question 6</span>
+  <div class="q-head"><span class="tag">AML Programs &amp; CDD</span><span class="tag diff">Easy</span><button class="check" disabled onclick="checkQ(6,this)">Check Answer</button></div>
   <p class="stem">A junior compliance analyst is preparing a suspicious activity report. While waiting to file, the analyst's parent asks — as a favor — whether the bank has "filed anything" on a mutual acquaintance. What is the most appropriate response?</p>
-  <ol class="opts">
-    <li>A. Explain that SAR matters are confidential and that even confirming whether a report was filed is not permitted</li>
-    <li>B. Confirm that a report was filed, but share no details</li>
-    <li>C. Confirm only that the acquaintance is a customer of the bank</li>
-    <li>D. Refer the question to the public-relations team</li>
-  </ol>
-  <details class="ans" ontoggle="bump()">
-    <summary>Show Answer &amp; Explanation</summary>
-    <p class="correct">Correct answer: A</p>
+  <label class="opt"><input type="radio" name="q6" value="A"><span class="letter">A</span>Explain that SAR matters are confidential and that even confirming whether a report was filed is not permitted<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q6" value="B"><span class="letter">B</span>Confirm that a report was filed, but share no details<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q6" value="C"><span class="letter">C</span>Confirm only that the acquaintance is a customer of the bank<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q6" value="D"><span class="letter">D</span>Refer the question to the public-relations team<span class="mk"></span></label>
+  <div class="explain" hidden>
+    <p class="correct-line">Correct answer: A</p>
     <p>SAR confidentiality is strict: the existence of a filing is itself protected information in most jurisdictions, and disclosing it — even to family, even without details — can constitute tipping off and expose both the filing and the institution. The correct behavior is a flat "I can't discuss that" with no confirmation of any kind.</p>
-    <ul style="margin:8px 0 0 18px;font-size:.92rem;color:var(--mut)">
+    <ul>
       <li><b>B</b> — Confirming the filing leaks the very information the confidentiality rule protects.</li>
       <li><b>C</b> — Customer status can be sensitive too (e.g., under investigation) and answering opens the door to further probing.</li>
       <li><b>D</b> — PR has no authority over SAR confidentiality and routing the question outward increases exposure.</li>
@@ -302,23 +321,22 @@ footer.site a{color:#cfd9e4;text-decoration:none}
     <p class="cite">Source: SAR/STR confidentiality and tipping-off provisions (e.g., BSA §5318(g)(2); FATF Rec. 20). Outline — AML/BSA programs.</p>
     <div class="votes"><span>Community vote:</span><span><b>A 88%</b></span><span>B 6%</span><span>C 3%</span><span>D 3%</span></div>
     <div class="disc">💬 27 comments in the discussion →</div>
-  </details>
-</article>
+  </div>
+</div>
 
-<article class="q">
-  <div class="q-head"><span class="tag">AML Programs &amp; CDD</span><span class="tag diff">Medium</span><button class="save" onclick="this.classList.toggle('on');this.textContent=this.classList.contains('on')?'Saved ✓':'Save'">Save</button></div>
+<!-- Q7 -->
+<div class="q" id="q7" data-correct="C">
+  <span class="q-num">Question 7</span>
+  <div class="q-head"><span class="tag">AML Programs &amp; CDD</span><span class="tag diff">Medium</span><button class="check" disabled onclick="checkQ(7,this)">Check Answer</button></div>
   <p class="stem">When verifying a new corporate customer's registered address during CDD, which source provides the strongest independent, verifiable information?</p>
-  <ol class="opts">
-    <li>A. The address published on the customer's website</li>
-    <li>B. A certificate of incorporation signed by the customer</li>
-    <li>C. The entry in the government company registry where the entity is incorporated</li>
-    <li>D. A written reference from one of the customer's existing clients</li>
-  </ol>
-  <details class="ans" ontoggle="bump()">
-    <summary>Show Answer &amp; Explanation</summary>
-    <p class="correct">Correct answer: C</p>
+  <label class="opt"><input type="radio" name="q7" value="A"><span class="letter">A</span>The address published on the customer's website<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q7" value="B"><span class="letter">B</span>A certificate of incorporation signed by the customer<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q7" value="C"><span class="letter">C</span>The entry in the government company registry where the entity is incorporated<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q7" value="D"><span class="letter">D</span>A written reference from one of the customer's existing clients<span class="mk"></span></label>
+  <div class="explain" hidden>
+    <p class="correct-line">Correct answer: C</p>
     <p>CDD standards distinguish <i>customer-provided</i> information from <i>independent, reliable</i> sources. A government registry is authoritative, maintained by a state body, and not produced by the customer for this purpose — that independence is what makes it verifiable. Customer-supplied documents and self-published materials can be altered; a third-party reference is opinion, not verification.</p>
-    <ul style="margin:8px 0 0 18px;font-size:.92rem;color:var(--mut)">
+    <ul>
       <li><b>A</b> — Self-published; websites are controlled by the customer and trivially changeable.</li>
       <li><b>B</b> — Certificates can be forged, and here they are presented by the customer themselves.</li>
       <li><b>D</b> — A client's reference confirms business relationships, not corporate facts, and is not independent of the transaction.</li>
@@ -326,23 +344,22 @@ footer.site a{color:#cfd9e4;text-decoration:none}
     <p class="cite">Source: FATF Recommendations 10–11 (CDD — reliable, independent source documents); Basel Committee CDD principles. Outline — AML/BSA programs.</p>
     <div class="votes"><span>Community vote:</span><span><b>C 79%</b></span><span>B 13%</span><span>A 4%</span><span>D 4%</span></div>
     <div class="disc">💬 16 comments in the discussion →</div>
-  </details>
-</article>
+  </div>
+</div>
 
-<article class="q">
-  <div class="q-head"><span class="tag">AML Programs &amp; CDD</span><span class="tag diff">Medium</span><button class="save" onclick="this.classList.toggle('on');this.textContent=this.classList.contains('on')?'Saved ✓':'Save'">Save</button></div>
+<!-- Q8 -->
+<div class="q" id="q8" data-correct="B">
+  <span class="q-num">Question 8</span>
+  <div class="q-head"><span class="tag">AML Programs &amp; CDD</span><span class="tag diff">Medium</span><button class="check" disabled onclick="checkQ(8,this)">Check Answer</button></div>
   <p class="stem">A financial institution decides to enter a new, higher-risk market segment: private banking for clients of non-profit organizations. Under a risk-based approach, what should the institution do first?</p>
-  <ol class="opts">
-    <li>A. Apply its existing standard controls to the new segment to maintain consistency</li>
-    <li>B. Update the institution-wide risk assessment and adjust customer acceptance, controls, and monitoring proportionate to the new risks identified</li>
-    <li>C. Decline to onboard any clients in the new segment until regulators approve the entry</li>
-    <li>D. Outsource the entire segment to a third party to transfer the risk</li>
-  </ol>
-  <details class="ans" ontoggle="bump()">
-    <summary>Show Answer &amp; Explanation</summary>
-    <p class="correct">Correct answer: B</p>
+  <label class="opt"><input type="radio" name="q8" value="A"><span class="letter">A</span>Apply its existing standard controls to the new segment to maintain consistency<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q8" value="B"><span class="letter">B</span>Update the institution-wide risk assessment and adjust customer acceptance, controls, and monitoring proportionate to the new risks identified<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q8" value="C"><span class="letter">C</span>Decline to onboard any clients in the new segment until regulators approve the entry<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q8" value="D"><span class="letter">D</span>Outsource the entire segment to a third party to transfer the risk<span class="mk"></span></label>
+  <div class="explain" hidden>
+    <p class="correct-line">Correct answer: B</p>
     <p>The risk-based approach means controls follow the risk assessment, not the other way around. Entering a new segment is a trigger to reassess — product, customer, geography and delivery-channel risk — and then right-size customer acceptance criteria, CDD intensity, transaction monitoring, and reporting thresholds. Uniform controls (A) are the anti-pattern regulators specifically call out.</p>
-    <ul style="margin:8px 0 0 18px;font-size:.92rem;color:var(--mut)">
+    <ul>
       <li><b>A</b> — One-size-fits-all controls under-serve high risk and over-serve low risk; that is precisely what "risk-based" means to avoid.</li>
       <li><b>C</b> — Market entry is a business decision subject to the institution's own risk appetite; it does not require regulator pre-approval.</li>
       <li><b>D</b> — Outsourcing transfers execution, not accountability; the institution retains full responsibility for the segment's AML controls.</li>
@@ -350,33 +367,86 @@ footer.site a{color:#cfd9e4;text-decoration:none}
     <p class="cite">Source: FATF Rec. 1 &amp; 10 (risk-based approach); ACAMS risk-assessment guidance. Outline — AML/BSA programs.</p>
     <div class="votes"><span>Community vote:</span><span><b>B 74%</b></span><span>A 12%</span><span>D 8%</span><span>C 6%</span></div>
     <div class="disc">💬 31 comments in the discussion →</div>
-  </details>
-</article>
+  </div>
+</div>
 
-<p style="text-align:center;margin-top:24px"><a class="btn ghost" href="#">Load the next 22 free questions →</a></p>
-</section>
+<!-- Q9 -->
+<div class="q" id="q9" data-correct="C">
+  <span class="q-num">Question 9</span>
+  <div class="q-head"><span class="tag">Sanctions</span><span class="tag diff">Medium</span><button class="check" disabled onclick="checkQ(9,this)">Check Answer</button></div>
+  <p class="stem">A screening system confirms that a customer's account is held by a person on a comprehensive sanctions list. The institution has verified the match against multiple attributes. What must the institution do next?</p>
+  <label class="opt"><input type="radio" name="q9" value="A"><span class="letter">A</span>Notify the customer that the account will be closed and allow them to withdraw remaining funds<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q9" value="B"><span class="letter">B</span>Close the account and report the closure to the relevant authority<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q9" value="C"><span class="letter">C</span>Freeze (block) the funds and report the blocked property to the relevant authority within the required timeframe<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q9" value="D"><span class="letter">D</span>Suspend transactions and wait for the regulator to instruct the institution on next steps<span class="mk"></span></label>
+  <div class="explain" hidden>
+    <p class="correct-line">Correct answer: C</p>
+    <p>Once a true match to a sanctions list is confirmed, the institution's obligations are to freeze (block) the property — not close or unwind the relationship — and to report the blocked property to the competent authority within the required timeframe (e.g., OFAC: report within 10 business days; EU regimes: freeze immediately and notify the authority). Closing the account would release funds the institution is required to hold; notifying the customer risks tipping off.</p>
+    <ul>
+      <li><b>A</b> — Withdrawing funds from a designated person's account defeats the freeze; customer notification is a tipping-off risk.</li>
+      <li><b>B</b> — Closing transfers value out of the frozen account; the obligation is to block and report, not to exit.</li>
+      <li><b>D</b> — Waiting for instruction delays a mandatory, self-executing obligation; the institution must act on its own confirmation.</li>
+    </ul>
+    <p class="cite">Source: OFAC 31 CFR 501.603 (blocking and reporting); EU Regulation 269/2014 (freeze/notify). Outline — international &amp; industry standards.</p>
+    <div class="votes"><span>Community vote:</span><span><b>C 81%</b></span><span>D 9%</span><span>B 7%</span><span>A 3%</span></div>
+    <div class="disc">💬 29 comments in the discussion →</div>
+  </div>
+</div>
 
-<!-- ③ WHAT THE CAMS EXAM COVERS -->
-<section>
-<h2>What the CAMS Exam Covers</h2>
-<p style="font-size:.9rem;color:var(--mut);margin-bottom:14px">The five exam domains from the ACAMS exam outline, with approximate weightings and the #1 trap test-takers hit in each. (Approximate — treat the official ACAMS outline as authoritative.)</p>
+<!-- Q10 -->
+<div class="q" id="q10" data-correct="B">
+  <span class="q-num">Question 10</span>
+  <div class="q-head"><span class="tag">AML Programs &amp; CDD</span><span class="tag diff">Medium</span><button class="check" disabled onclick="checkQ(10,this)">Check Answer</button></div>
+  <p class="stem">During CDD on a corporate customer, the ownership chain shows one individual holding 24% directly and a second individual holding 25% through an intermediate holding company. Under FATF-style CDD standards, at what ownership threshold must a financial institution identify a natural person as a beneficial owner?</p>
+  <label class="opt"><input type="radio" name="q10" value="A"><span class="letter">A</span>10% or more<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q10" value="B"><span class="letter">B</span>25% or more<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q10" value="C"><span class="letter">C</span>50% or more<span class="mk"></span></label>
+  <label class="opt"><input type="radio" name="q10" value="D"><span class="letter">D</span>75% or more<span class="mk"></span></label>
+  <div class="explain" hidden>
+    <p class="correct-line">Correct answer: B</p>
+    <p>FATF Recommendation 24 sets the standard: financial institutions must identify the natural person(s) who ultimately own or control a customer — defined as a 25% or greater shareholding (or equivalent interest), and where no individual meets that threshold, the natural person(s) exercising control through management position. Here, the individual with 25% through the holding company meets the threshold once the chain is looked through; the 24% direct holder does not, by shareholding alone.</p>
+    <ul>
+      <li><b>A</b> — 10% is a disclosure-level threshold in some local regimes, but the FATF standard for CDD identification is 25%.</li>
+      <li><b>C</b> — A 50% reading misses the FATF standard and would let a 25%+ controller go unidentified.</li>
+      <li><b>D</b> — 75% is not a CDD threshold in the FATF Recommendations.</li>
+    </ul>
+    <p class="cite">Source: FATF Recommendation 24 (legal persons — beneficial ownership); EU 4th/6th AMLD transposition. Outline — AML/BSA programs.</p>
+    <div class="votes"><span>Community vote:</span><span><b>B 76%</b></span><span>C 14%</span><span>A 7%</span><span>D 3%</span></div>
+    <div class="disc">💬 22 comments in the discussion →</div>
+  </div>
+</div>
+
+<!-- BIG CTA right after the section -->
+<div class="big-cta">
+  <p class="score-line" id="scoreline" hidden>Free-set score: <b id="scoreval"></b> · The full set will sharpen exactly the areas you missed</p>
+  <a class="btn xl" href="cams-full-practice-exam.html">Get Full Access →</a>
+  <p class="cta-sub">1,214 questions · 12 timed full-length mocks · domain-level analytics · from $79</p>
+</div>
+
+<!-- ③ DOMAINS -->
+<div class="sec-head">
+  <span class="kicker">Study Guide</span>
+  <h2>What the CAMS Exam Covers</h2>
+  <p class="sec-sub">Five domains from the ACAMS exam outline, with approximate weightings (treat the official outline as authoritative)</p>
+</div>
 
 <div class="dom"><span class="w">Domain 1 · AML &amp; Sanctions Laws, Regulations &amp; Industry Initiatives (~20%)</span><ul><li>Know which jurisdiction's rule applies in each scenario — U.S. (BSA/PATRIOT), EU, FATF — the exam mixes them deliberately.</li><li>Sector rules (banks vs. casinos vs. virtual-asset providers) change the obligations; note who the "financial institution" is before answering.</li></ul></div>
 <div class="dom"><span class="w">Domain 2 · ML &amp; Terrorism-Financing Methods &amp; Typologies (~20%)</span><ul><li>Scenario questions recycle the same typologies (structuring, TBLM, shell companies, trade invoicing) in new stories — learn the pattern, not the story.</li><li>"Which is the <i>most likely</i> indicator" questions reward you for ranking red flags by strength, not just recognizing one.</li></ul></div>
 <div class="dom"><span class="w">Domain 3 · International &amp; Industry Standards for AML/PTF (~15%)</span><ul><li>FATF Recommendations, Wolfsberg Principles, Basel Committee papers — the exam tests <i>application</i> (what the standard says an institution must do), not recitation.</li><li>Distinguish minimum standards (FATF) from best practice (Wolfsberg) when options are close.</li></ul></div>
 <div class="dom"><span class="w">Domain 4 · AML/BSA Compliance Programs (~30%)</span><ul><li>The heaviest domain: program design, risk assessment, CDD/EDD, monitoring, SARs, training, governance.</li><li>Default to "the most prudent, documented, risk-based first step" — the exam rarely rewards aggressive or informal answers.</li></ul></div>
 <div class="dom"><span class="w">Domain 5 · AML Auditing (~15%)</span><ul><li>Know the auditor's limits: the auditor <i>validates</i> remediation; management <i>remediates</i>. Role-confusion is the classic trap.</li><li>Audit-sampling and materiality questions test whether you understand what an opinion covers.</li></ul></div>
-</section>
 
-<!-- ④ EXAM-RELATED FAQ -->
-<section>
-<h2>CAMS Exam FAQ</h2>
+<!-- ④ EXAM FAQ -->
+<div class="sec-head">
+  <span class="kicker">FAQ</span>
+  <h2>CAMS Exam FAQ</h2>
+  <p class="sec-sub">Everything about the exam itself — not the product</p>
+</div>
 <details class="faq"><summary>How hard is the CAMS exam, really?</summary><p>Rigorous and broad — it mixes five domains and rewards depth in domain 4 (compliance programs). ACAMS does not publish an official overall pass rate, so treat vendor "99% pass rate" claims with skepticism. Realistic preparation for most professionals: 6–12 weeks of focused study.</p></details>
 <details class="faq"><summary>Do I need a prerequisite to sit the exam?</summary><p>No formal prerequisite. ACAMS recommends relevant experience or coursework in AML/compliance, and many candidates hold an ACAMS membership (which also reduces the exam fee). You can book through Pearson VUE year-round.</p></details>
 <details class="faq"><summary>What does the actual exam day look like?</summary><p>140 multiple-choice and multiple-response questions in 4 hours, taken on Pearson VUE — either at a test centre or remotely proctored online (OnVUE), where you'll need a quiet room, acceptable webcam/mic, and a valid government photo ID. You get a score report after the exam; passing scores land in your ACAMS account shortly after.</p></details>
 <details class="faq"><summary>How long is the certification valid, and what does renewal involve?</summary><p>Three years. Renewal requires 30 CPEs (Continuing Professional Education) within the cycle, plus the renewal fee. CPEs must be relevant to AML and completed through ACAMS or an approved provider.</p></details>
 <details class="faq"><summary>What happens if I don't pass?</summary><p>You can retake the exam; ACAMS allows multiple attempts (there is a short waiting period between attempts — check current policy before booking again). Most candidates who retake do so after targeted review of the domains that cost them points, which is exactly what a question bank with domain-level scoring is for.</p></details>
-</section>
 
 </div>
 
@@ -389,11 +459,41 @@ footer.site a{color:#cfd9e4;text-decoration:none}
 </footer>
 
 <script>
-let answered=0;
-function bump(){
-  const d=document.querySelectorAll('details.ans[open]').length;
-  const el=document.getElementById('prog');
-  if(el && d!==answered){ el.textContent=d+' / 8'; answered=d; }
+let answered = 0, correct = 0;
+document.querySelectorAll('.q input').forEach(function(i){
+  i.addEventListener('change', function(){
+    var card = i.closest('.q');
+    card.querySelectorAll('.opt').forEach(function(l){ l.classList.remove('sel'); });
+    i.closest('.opt').classList.add('sel');
+    if(!card.classList.contains('checked')) card.querySelector('.check').disabled = false;
+  });
+});
+function checkQ(n, btn){
+  var card = document.getElementById('q' + n);
+  if(card.classList.contains('checked')) return;
+  var sel = card.querySelector('input:checked');
+  if(!sel) return;
+  card.classList.add('checked');
+  btn.disabled = true; btn.textContent = 'Answered ✓';
+  var correctVal = card.dataset.correct;
+  card.querySelectorAll('.opt').forEach(function(l){
+    var inp = l.querySelector('input');
+    inp.disabled = true;
+    var mk = l.querySelector('.mk');
+    if(inp.value === correctVal){ l.classList.add('correct'); mk.textContent = '✓ correct'; }
+    else if(inp.checked){ l.classList.add('wrong'); mk.textContent = '✗ your pick'; }
+    else l.classList.add('dim');
+    l.classList.remove('sel');
+  });
+  card.querySelector('.explain').hidden = false;
+  if(sel.value === correctVal) correct++;
+  answered++;
+  document.getElementById('answered').textContent = answered + ' / 10';
+  document.getElementById('pbar').style.width = (answered * 10) + '%';
+  if(answered === 10){
+    document.getElementById('scoreline').hidden = false;
+    document.getElementById('scoreval').textContent = correct + ' / 10 correct';
+  }
 }
 </script>
 </body>
